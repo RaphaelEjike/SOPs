@@ -11,6 +11,11 @@ These are the main Standard Operating Procedures (SOPs) that I have used as a Se
 ### Malware
 ### Insider Threats
 
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
 
 # Employee Offboarding
 
@@ -24,7 +29,7 @@ In the case of an Immediate Termination of Empoyment. Ensure the secure offboard
 
 <ul>
   <li>Initiate upon notification from HR or IT.</li>
-  <li>Validate the request through the employee database.</li>
+  <li>Validate the request through the employee database ie Workday SAGE or Oracle.</li>
 </ul>
 
 ## 2 Account Deactivation:
@@ -69,6 +74,89 @@ In the case of an Immediate Termination of Empoyment. Ensure the secure offboard
 <ul>
   <li>If suspicious activity is detected post-offboarding, escalate to SOC Manager.</li>
 </ul>
+
+
+# Response Timeframe:
+Immediate action required within 1 hour of receiving the offboarding request.
+
+
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+
+
+# DLP Alert Response
+
+# Overview
+
+Respond to alerts triggered by Digital Guardian related to data loss prevention (DLP) to protect sensitive corporate data.
+
+# Steps:
+
+## 1 Receive Alert:
+
+<ul>
+  <li>Alerts are generated via Digital Guardian and forwarded to Azure Sentinel.</li>
+  <li>In DG or Sentinel review alert details, including the type of data and user involved.</li>
+</ul>
+
+## 2 Initial Assessment:
+
+<ul>
+  <li> Verify if the data is classified as sensitive.</li>
+  <li> Cross-reference with existing policies.</li>
+</ul>
+
+
+## 3 Containment:
+
+<ul>
+  <li> Block any ongoing data exfiltration.</li>
+  <li>Isolate the device if necessary using Microsoft Defender XDR.</li>
+</ul>
+
+## 4 Investigation:
+
+<ul>
+  <li>Identify the root cause, whether it’s malicious or accidental.</li>
+  <li>Via users manager, interview the user involved if necessary.</li>
+</ul>
+
+## 5 Remediation:
+
+<ul>
+  <li>Delete or secure exposed data.</li>
+  <li>Re-train the user on data handling policies if accidental.</li>
+</ul>
+
+## 6 Documentation:
+
+<ul>
+  <li>Record details of the incident, actions taken, and final resolution.</li>
+  <li>Update DLP policies if necessary to prevent future incidents.</li>
+</ul>
+
+
+## 7 Escalation:
+
+<ul>
+  <li>Escalate to the DLP team if the incident involves large volumes of sensitive data or repeated violations.</li>
+</ul>
+
+
+# Response Timeframe:
+High-severity alerts must be responded to within 15 minutes.
+
+
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
 
 
 
