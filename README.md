@@ -1,6 +1,6 @@
 # SOPs
 
-These are the main Standard Operating Procedures (SOPs) that I have used as a Security Operations Center (SOC) analysts using Azure Sentinel (Azure SIEM), Microsoft Defender (XDR), DUO (MFA), and Digital Guardian (DLP). I have I have generalised them to suit most SOC environments. In any case SOPs should be reviewed quarterly and immediate updates if new security tools are implemented or new threats are identified. Access Control should be observed ie restrict access to incident details involving sensitive data or HR issues to relevant personnel only. 
+These are the main Standard Operating Procedures (SOPs) that I have used as a Security Operations Center (SOC) analyst using Azure Sentinel (Azure SIEM), Microsoft Defender (XDR), DUO (MFA), and Digital Guardian (DLP). I have I have generalised them to suit most SOC environments. In any case SOPs should be reviewed quarterly and immediate updates if new security tools are implemented or new threats are identified. Access Control should be observed ie restrict access to incident details involving sensitive data or HR issues to relevant personnel only. 
 
 # Incident Triage and Response
 
