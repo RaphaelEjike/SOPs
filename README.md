@@ -158,6 +158,87 @@ High-severity alerts must be responded to within 15 minutes.
 </ul>
 
 
+# Suspicious Authentication Alerts
+
+# Overview
+
+Investigate alerts regarding suspicious authentication activities, such as failed login attempts or login from unusual locations.
+
+# Steps:
+
+## 1 Receive Alert:
+
+<ul>
+  <li>Review suspicious authentication alerts in Azure Sentinel.</li>
+  <li>Check details like IP address, login time, and location.</li>
+</ul>
+
+## 2 Initial Verification:
+
+<ul>
+  <li> Contact the user to verify if they recognize the activity.</li>
+  <li> If unreachable, proceed with caution.</li>
+</ul>
+
+
+## 3 Containment:
+
+<ul>
+  <li> Lock the account via Azure AD if the activity is deemed suspicious.</li>
+  <li> Terminate any active sessions using Microsoft Defender XDR.</li>
+</ul>
+
+## 4 Investigation:
+
+<ul>
+  <li>Trace the IP and look for patterns in Azure Sentinel.</li>
+  <li>Check for similar activities across the network.</li>
+</ul>
+
+## 5 Remediation:
+
+<ul>
+  <li>Require a password reset via DUO.</li>
+  <li>Re-enable the account only after confirming the user’s identity.</li>
+</ul>
+
+## 6 Documentation:
+
+<ul>
+  <li>Record details of the incident, actions taken, and final resolution.</li>
+  
+</ul>
+
+
+## 7 Escalation:
+
+<ul>
+  <li> Escalate to SOC managert if the suspicious activity is part of a larger pattern..</li>
+</ul>
+
+
+# Response Timeframe:
+High-severity alerts must be responded to within 30 minutes.
+
+
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
